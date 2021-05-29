@@ -4,6 +4,7 @@ Posa is a `.properties` file sanitizer.
 - Removes empty lines
 - Removes line comments
 - Orders keys
+- Converts characters to escaped unicode
 
 ## Build
 ```bash
