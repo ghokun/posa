@@ -1,0 +1,13 @@
+{
+  "configurations": [
+    {
+      "hostName": "localhost",
+      "name": "Debug",
+      "port": 5005,
+      "preLaunchTask": "mvn",
+      "request": "attach",
+      "type": "java"
+    }
+  ],
+  "version": "0.2.0"
+}

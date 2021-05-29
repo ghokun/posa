@@ -1,0 +1,35 @@
+{
+  "build": {
+    "args": {
+      "GRAALVM_VERSION": "21.1.0.r11-grl",
+      "GRADLE_VERSION": "",
+      "INSTALL_GRAALVM": "true",
+      "INSTALL_GRADLE": "false",
+      "INSTALL_MAVEN": "true",
+      "MAVEN_VERSION": ""
+    },
+    "dockerfile": "Dockerfile"
+  },
+  "extensions": [
+    "eamodio.gitlens",
+    "editorconfig.editorconfig",
+    "gruntfuggly.todo-tree",
+    "naco-siren.gradle-language",
+    "redhat.java",
+    "redhat.vscode-commons",
+    "redhat.vscode-quarkus",
+    "redhat.vscode-microprofile",
+    "redhat.vscode-xml",
+    "redhat.vscode-yaml",
+    "richardwillis.vscode-gradle",
+    "sonarsource.sonarlint-vscode",
+    "visualstudioexptteam.vscodeintellicode",
+    "vscjava.vscode-java-debug",
+    "vscjava.vscode-java-dependency",
+    "vscjava.vscode-java-test",
+    "vscjava.vscode-maven",
+    "vscjava.vscode-java-pack"
+  ],
+  "name": "quarkus-vscode",
+  "remoteUser": "vscode"
+}
