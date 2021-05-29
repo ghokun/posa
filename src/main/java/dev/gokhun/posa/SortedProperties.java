@@ -10,11 +10,14 @@ import java.util.Properties;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class PropertiesAdapter extends Properties {
+/**
+ * Properties, but sorted.
+ */
+public class SortedProperties extends Properties {
 
 	private static final long serialVersionUID = 1L;
 
-	public PropertiesAdapter(Properties properties) {
+	public SortedProperties(Properties properties) {
 		this.putAll(properties);
 	}
 
