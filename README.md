@@ -1,10 +1,11 @@
-# quarkus-vscode
+# posa
 
-This is a template repository for developing Java applications with Quarkus framework.
+Posa is a `.properties` file sanitizer.
 
 ## Usage
-
-- Click `Use this Template` button to create your repository
-- Checkout your repository
-- Open with Visual Studio Code
-- When prompted click `Reopen in container` (You need to have docker installed and running)
+```bash
+chmod +x posa
+./posa --dir my-dir
+./posa --dir my-dir --keep-comments
+./posa --dir my-dir --preserve-order
+```

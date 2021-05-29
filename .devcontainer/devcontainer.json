@@ -30,6 +30,6 @@
     "vscjava.vscode-maven",
     "vscjava.vscode-java-pack"
   ],
-  "name": "quarkus-vscode",
+  "name": "posa",
   "remoteUser": "vscode"
 }
