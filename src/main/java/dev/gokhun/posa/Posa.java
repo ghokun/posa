@@ -4,6 +4,6 @@ import io.quarkus.picocli.runtime.annotations.TopCommand;
 import picocli.CommandLine.Command;
 
 @TopCommand
-@Command(subcommands = { Sanitize.class })
+@Command(mixinStandardHelpOptions = true, subcommands = { Sanitize.class, Validate.class })
 public class Posa {
 }

@@ -15,6 +15,7 @@
     "editorconfig.editorconfig",
     "gruntfuggly.todo-tree",
     "naco-siren.gradle-language",
+    "natqe.reload",
     "redhat.java",
     "redhat.vscode-commons",
     "redhat.vscode-quarkus",
